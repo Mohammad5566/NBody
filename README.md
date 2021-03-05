@@ -5,4 +5,4 @@ To run simulation, choose a time, time derivative (dt), and a dataset from ```da
 Example:
 ```java NBody 157788000.0 25000.0 data/planets.txt```
 
-<img src="https://i.imgur.com/37CpfKA.gif/>
+<img src="https://i.imgur.com/37CpfKA.gif>
