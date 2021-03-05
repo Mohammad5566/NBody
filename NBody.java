@@ -1,3 +1,9 @@
+/**
+ * @author Mohammad Mahmud
+ * This class does the work of processing a file, drawing bodies to
+ * output, and updating bodies positions. 
+ */
+
 public class NBody {
 
 	/*Reads in the radius from a given file.*/
