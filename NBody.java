@@ -1,11 +1,13 @@
 public class NBody {
-	
+
+	/*Reads in the radius from a given file.*/
 	public static double readRadius(String file) {
 		In in = new In(file);
 		in.readDouble();
 		return in.readDouble();
 	}
 
+	/*Reads in a list of bodies from given file.*/
 	public static Body[] readBodies(String file) {
 		In in = new In(file);
 		int numOfBodies = in.readInt();
@@ -81,7 +83,7 @@ public class NBody {
 
 	}
 
-	/*Calculates the net X force exerted on each body by all other bodies*/
+	/*Calculates the net Y force exerted on each body by all other bodies*/
 	public static void calculateNetForceY(double[] force, Body[] bodies) {
 		for (int i = 0; i < bodies.length; i += 1) {
 			double netForce = bodies[i].calcNetForceExertedByY(bodies);
@@ -89,9 +91,4 @@ public class NBody {
 		}
 	}
 
-	public static void updateBodies(double[] xForce, double[] yForce, Body[] bodies) {
-		for (int i = 0; i < bodies.length; i += 1) {
-
-		}
-	}
 }
