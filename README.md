@@ -7,3 +7,5 @@ Example:  ```java NBody 157788000.0 25000.0 data/planets.txt```
 <p align="center">
   <img src="https://i.imgur.com/37CpfKA.gif" />
 </p>
+
+<sup> *Content by Josh Hug, UC Berkeley CS 61B Data Structures* </sup>
